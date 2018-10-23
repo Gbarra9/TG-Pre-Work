@@ -1,0 +1,39 @@
+p {
+      font-family:Arial;
+    }
+
+h1 {
+  color:maroon;
+}
+
+.title {
+  color:teal;
+}
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+.publish-time {
+  color:gray;
+}
+
+.cursive {
+  font-family:cursive;
+}
+
+.capitalize {
+  text-transform:capitalize;
+}
+
+h2.destination {
+  font-family:cursive;
+}
+
+.description h5 {
+  color:teal;
+}
+
+/* CSS supports selecting elements nested within other HTML elements */
+/* Selecting elements via elements nested within other elements is more specific */
+/* Parent element and child element are seperated by a space */
