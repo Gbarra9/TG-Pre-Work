@@ -1,0 +1,31 @@
+p {
+      font-family:Arial;
+    }
+
+h1 {
+  color:maroon;
+}
+
+.title {
+  color:teal;
+}
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+.publish-time {
+  color:gray;
+}
+
+.cursive {
+  font-family:cursive;
+}
+
+.capitalize {
+  text-transform:capitalize;
+}
+
+/* Specificity is the order by which the browser decides which styling should be displayed  */
+/* Best practice to use lowest degree of specificity, makes modifying a style easier and overriding easier */
+/* Specificity ID > Class > Tags */

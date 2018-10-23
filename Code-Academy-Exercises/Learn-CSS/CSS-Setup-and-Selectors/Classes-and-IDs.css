@@ -1,0 +1,29 @@
+p {
+      font-family:Arial;
+    }
+
+h1 {
+  color:maroon;
+}
+
+.title {
+  color:teal;
+}
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+#article-title {
+  font-family:cursive;
+  text-transform: capitalize;
+}
+
+.publish-time {
+  color:gray;
+}
+
+/* CSS can select HTML elements via tags, classes and ID */
+/* CSS classes and IDs have different purposes    */
+/* CSS classes are meant to be reused over multiple elements, style elements by mixing classes in HTML */
+/* ID meant to style only one element, ID overrides style of tags and classes */

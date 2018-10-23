@@ -1,0 +1,18 @@
+p {
+      font-family:Arial;
+    }
+
+h1 {
+  color:maroon;
+}
+
+.title {
+  color:teal;
+}
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+/* Add more than one class attribute to value by adding a space between attribute values */
+/* Multiple classes prevents writing custom class for every style combination needed, and allows mixing and matching CSS classes to create unique styles */

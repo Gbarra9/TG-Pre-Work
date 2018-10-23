@@ -1,0 +1,12 @@
+p {
+      font-family:Arial;
+    }
+
+h1 {
+  color:maroon;
+}
+
+/* CSS can select HTML elements by using element's tag name */
+/* Tag name is the word or character in between HTML angle brackets */
+
+/* Tag name is selector and what follows a selector is two curly braces */

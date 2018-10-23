@@ -1,0 +1,14 @@
+p {
+      font-family:Arial;
+    }
+
+h1 {
+  color:maroon;
+}
+
+.title {
+  color:teal;
+}
+
+/* Select elements by their class attribute */
+/* Select HTML element with a class attribute by a period followed by class attribute name */
