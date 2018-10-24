@@ -1,0 +1,5 @@
+/* Vertical margins (top and bottom margins) will collapse  */
+/* Horizontal margins (right and left margins) are always displayed and added together
+/* Margin space between two elements will be added together */
+
+/* Vertical Margins do not add together, the larger of the two margin sets will be the displayed margin between adjacent elements*/
