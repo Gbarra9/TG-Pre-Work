@@ -6,9 +6,6 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
 }
 
 ul {
@@ -82,13 +79,11 @@ footer {
   padding: 40px;
   text-align: center;
   width: 100%;
-  position: relative;
-  top: 200px;
 }
 
 .question {
   text-align: center;
-  position: relative;
+  position:relative;
   top: 40px;
 }
 
@@ -102,8 +97,8 @@ footer {
   color: #FFF;
 }
 
-/* z-index controls how far back or how far forward an element appears on page when elements overlap */
-/* z-index property accepts integer values (higher number = more forward, lower number = more back) */
-/* integer instructs the browser on the appearance order of the elements  */
+/* Relative position moves element relative to its default static position on web page */
+/* In combination with relative position use the following offset properties to move element: top, bottom, left, right */
+/* top(moves element down), bottom(moves element up), left (moves element right), right (moves element left) */
 
-/* IMPORTANT: z-index does not work with static position elements */
+/* offset properties can take values in px, rem or em */

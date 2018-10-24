@@ -8,7 +8,7 @@ header {
   border-bottom: 1px solid #466995;
   position: fixed;
   width: 100%;
-  z-index: 10;
+
 }
 
 ul {
@@ -88,7 +88,7 @@ footer {
 
 .question {
   text-align: center;
-  position: relative;
+  position:relative;
   top: 40px;
 }
 
@@ -102,8 +102,6 @@ footer {
   color: #FFF;
 }
 
-/* z-index controls how far back or how far forward an element appears on page when elements overlap */
-/* z-index property accepts integer values (higher number = more forward, lower number = more back) */
-/* integer instructs the browser on the appearance order of the elements  */
-
-/* IMPORTANT: z-index does not work with static position elements */
+/* elements with absolute positioning scroll with html document flow */
+/* elements with fixed positioning remain in its fixed position and ignores scrolling of page */
+/* fixed positioned elements ignore flow of HTML documents and commonly used for nav bars */
