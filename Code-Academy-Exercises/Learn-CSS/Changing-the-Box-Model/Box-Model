@@ -1,0 +1,7 @@
+Box-sizing controls type of box-model the browser should use when interpreting web page
+
+content-box is default value for box-sizing property, this makes padding value and border value affect box-model dimensions
+
+New box-model avoids dimension issue
+  Height and Width of box model remain fixed
+  Border and padding value will be taken into account for specified width and height (Not added to width/height like old box-model)
