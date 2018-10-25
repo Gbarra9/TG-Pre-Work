@@ -1,0 +1,9 @@
+var favoriteFood = 'pizza'
+var numOfSlices = 8
+
+console.log(favoriteFood)
+console.log(numOfSlices)
+
+
+ // Declare or create a variable using keywords const and let (ES6) or var (pre ES6)
+// camel case convention is to keep first letter of variable name lowercase and capitalize first letter of second word (words are grouped into one)
