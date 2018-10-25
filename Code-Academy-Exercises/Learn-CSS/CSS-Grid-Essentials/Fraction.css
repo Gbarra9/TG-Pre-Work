@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  grid-template: 1fr 1fr 1fr /3fr 50% 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* Grid layouts have fr unit (fraction) */
+/* fr units take a fraction of grid's length and width */
+
+/* when fr combined with other units fr unit takes up remaining space in fractions */
