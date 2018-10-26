@@ -15,7 +15,7 @@ switch (athleteFinalPosition ) {
     break
 }
 
-// Use switch statement to provide alternative syntax for else if statements
+// Use switch statement to provide alternative syntax for else if statements, simplify multiple if statements
 
 // switch initiates statement and followed by (), the condition will contain value each case will compare // TODO:
 
