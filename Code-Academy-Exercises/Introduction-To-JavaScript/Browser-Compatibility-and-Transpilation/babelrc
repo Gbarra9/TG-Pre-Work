@@ -1,0 +1,13 @@
+{
+"presets" : ["env"]
+}
+
+/*
+specify initial JavaScript file into file named .babelrc
+
+define preset for JavaScript source file, preset specifies version of inital JavaScript file
+
+add object {"presets":["env"]} inside .babelrc to transpile JavaScript from ES6 and above to ES5
+
+
+ */
